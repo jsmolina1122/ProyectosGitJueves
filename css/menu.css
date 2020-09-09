@@ -35,7 +35,7 @@ header label{
 	color: white;
 	height: 50px;
 	text-decoration: none;
-	padding: 10px;
+    padding: 10px;
 	border: 1px solid rgba(255,255,255,0.5);
 }
 
@@ -142,3 +142,5 @@ footer .contenedor{
 		width: 1000px;
 	}
 }
+
+

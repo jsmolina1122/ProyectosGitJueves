@@ -69,6 +69,7 @@
 }
 
 #Bienvenidos{
+    margin-top: 40px;
 	text-align: center;
 }
 
@@ -76,3 +77,25 @@ p {
     font-family:Arial;
     font-size: 24px;
   }
+
+  #video{
+      margin-left: 40px;
+      margin-top: 70px;
+      position: relative;
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 50.25%; /* 16/9 ratio */
+      padding-top: 30px; /* IE6 workaround*/
+     
+}
+
+#youtube{
+    border-color:red;
+    border-width: 0.5em;
+    border-radius: 5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 50%;
+}
