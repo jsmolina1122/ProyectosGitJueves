@@ -78,24 +78,44 @@ p {
     font-size: 24px;
   }
 
-  #video{
-      margin-left: 40px;
-      margin-top: 70px;
-      position: relative;
-      height: 0;
-      overflow: hidden;
-      padding-bottom: 50.25%; /* 16/9 ratio */
-      padding-top: 30px; /* IE6 workaround*/
-     
-}
-
 #youtube{
     border-color:red;
     border-width: 0.5em;
     border-radius: 5em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60%;
-    height: 50%;
+    margin-left: 3em;
+    width: 80%;
+    height: 100%;
 }
+
+
+#contenido{
+	height: auto;
+	width: 100%;
+	background-color:black;
+	overflow: hidden;
+	margin-top: 6em;
+
+}
+
+.video2{
+	margin-top: 2em;
+	background-color: black;
+	width: 33%;
+	height: 100%;
+	float: right;
+}
+
+#video{
+	margin-top: 2em;
+	height: 25em;
+	width: 65%;
+	float: left;
+	background-color:black; 
+}
+
+#letras{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+
