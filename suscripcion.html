@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>suscripcion</title>
+  <link rel="stylesheet" href="css/suscripcion.css">
+
+</head>
+<body>
+<br>
+  <h2>suscripcion Al Canal</h2>
+<p>Llene el siguinte formulario para suscribirse al canal,y recibir notificaciones de los ultimos videos</p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname"> Nombre</label>
+      </div>
+    
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Nombre..">
+      </div>
+  </div>
+  
+      <div class="row">
+        <div class="col-25">
+         <label for="lname">Apellido</label>
+      </div>
+    
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Apellido..">
+      </div>
+  </div>
+
+      <div class="row">
+       <div class="col-25">
+         <label for="Telefono">correo</label>
+       </div>
+
+      <div class="col-75">
+        <input type="text" id="correo" name="correo" placeholder="correo..">
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-25">
+        <label for="country">Ciudad</label>
+      </div>
+      <div class="col-75">
+      <select id="country" name="country">
+        <option value="Medellin">Medellin</option>
+        <option value="Bogota">Bogota</option>
+        <option value="Cartagena">Cartagena</option>
+        </select>
+      </div>
+      </div>  
+    
+            <br>
+            <br>
+         <div class="row">
+         <input type="submit" value="suscribirse">
+        </div>
+  </form>
+</div>
+
+
+</body>
+</html>
